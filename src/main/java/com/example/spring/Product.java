@@ -17,7 +17,7 @@ public class Product {
 
     @Column(nullable = false, unique = true)
     private String name;
-    // ✅ JPA가 사용할 기본 생성자
+
     public Product() {
     }
     public Product(String name) {
